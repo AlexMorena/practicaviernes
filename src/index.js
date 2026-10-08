@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import EmpleadosOficiosPracticar from './components/EmpleadosOficiosPracticar';
+import EmpleadosOficiosPracticar2 from './components/EmpleadosOficiosPracticar2';
+import EmpleadosDepartamento from './components/EmpleadosDepartamento';
+import EmpleadosDepartamento2 from './components/EmpleadosDepartamento2';
+import EmpleadosOficiosPracticar3 from './components/EmpleadosOficiosPracticar3';
+import EmpleadosId from './components/EmpleadosId';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <EmpleadosId  />
   </React.StrictMode>
 );
 
